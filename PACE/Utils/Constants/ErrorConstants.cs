@@ -61,7 +61,6 @@ public static class ErrorConstants
     public const string RequiredEmployeeEmailError = "EmployeeEmail is required.";
     public const string RequiredVacationsError = "VacationsApproverId is required.";
     public const string RequiredDepartmentIdError = "DepartmentId is required.";
-    public const string RequiredDepartmentIdError = "DepartmentId is required.";
 
     public const string UserNotAllowedError = "User not Alowed to edit Manager-assigned goals";
 }

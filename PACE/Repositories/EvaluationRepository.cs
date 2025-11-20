@@ -74,7 +74,7 @@ public class EvaluationRepository(PaceDbContext context) : IEvaluationRepository
         return evaluationExists;
     }
 
-    public IQueryable<EvaluationModel> AllEvaluationsExistsByDepartmentIdIdAsync(int departmentId, int year)
+    public IQueryable<EvaluationModel> AllEvaluationsExistsByDepartmentIdAsync(int departmentId, int year)
     {
         var evaluationExists = _context.Evaluations
             .AsNoTracking()
